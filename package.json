@@ -1,0 +1,26 @@
+{
+    "name": "saturn-coding",
+    "displayName": "Saturn Coding",
+    "description": "Syntax highlighting for Saturn",
+    "version": "0.0.1",
+    "publisher": "fernando-munoz-mendez",
+    "engines": {
+        "vscode": "^1.30.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "saturn",
+            "aliases": ["Saturn", "saturn"],
+            "extensions": [""],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "saturn",
+            "scopeName": "source.saturn",
+            "path": "./syntaxes/saturn.tmLanguage.json"
+        }]
+    }
+}
