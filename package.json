@@ -4,6 +4,7 @@
     "description": "Syntax highlighting for Saturn",
     "version": "0.1.0",
     "publisher": "fernando-munoz-mendez",
+    "repository":  "https://github.com/fermm92/saturn-coding" ,
     "engines": {
         "vscode": "^1.30.0"
     },
