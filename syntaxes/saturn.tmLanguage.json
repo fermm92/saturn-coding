@@ -14,10 +14,19 @@
 	],
 	"repository": {
 		"keywords": {
-			"patterns": [{
-				"name": "keyword.control.saturn",
-				"match": "\\b(if|while|for|return)\\b"
-			}]
+			"patterns": [
+				{
+					"match": "(^.{5})\\s{4}\\d\\s{4}(\\d)",
+					"captures": {
+						"2": {
+							"name": "keyword.control.saturn"
+						},
+						"1": {
+							"name": "storage.type.function.saturn"
+						}
+						}
+					}
+		]
 		},
 		"comments": {
 			"patterns": [{
